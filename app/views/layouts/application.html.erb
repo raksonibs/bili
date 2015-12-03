@@ -3,12 +3,15 @@
 <head>
   <title>Bili</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <%= yield %>
+
+<script src="assets/bundle.js"></script>
+<!-- NTD: is this necessary? what if can't bundle -->
 
 </body>
 </html>
