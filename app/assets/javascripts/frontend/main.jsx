@@ -36,7 +36,9 @@ class Main extends React.Component {
   }
 }
 
-// React.render(
-//   <h1>test</h1>, 
-//   document.getElementById('hello')
-// );
+let documentReady = () => {
+  React.render(
+    <Main />,
+    documet.getElementById('react')
+  )
+}
