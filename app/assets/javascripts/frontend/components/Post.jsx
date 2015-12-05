@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Post extends React.Component {
+export default class Post extends React.Component {
   render() {
     return (
           <li> {this.props.spanish_text}
@@ -8,3 +8,5 @@ class Post extends React.Component {
     )
   }
 }
+
+module.exports = Post
