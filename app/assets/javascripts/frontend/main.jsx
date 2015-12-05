@@ -36,9 +36,20 @@
 //   }
 // }
 
+import Greet from './components/greet';
+
+class Main extends React.Component {
+  render() {
+    return (
+      <Greet />
+    )
+  }
+}
+
+
 let documentReady = () => {
   React.render(
-    <h1> Hello </h1>,
+    <Main />,
     document.getElementById('react')
   )
 }
