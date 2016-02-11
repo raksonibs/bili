@@ -1,6 +1,8 @@
+'use strict'
+
 import React from 'react';
 
-export default class Post extends React.Component {
+class Post extends React.Component {
   render() {
     return (
           <li> {this.props.spanish_text}

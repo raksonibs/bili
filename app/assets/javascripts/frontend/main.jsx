@@ -1,5 +1,4 @@
-import Greet from './components/greet';
-import PostList from './components/PostList'
+var PostList = require('./components/PostLst')
 
 let posts = [{spanish_text: 'blah', english_text: 'vale'}, {english_text: 'good', spanish_text: 'bueno'}]
 
