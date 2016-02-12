@@ -1,3 +1,4 @@
 <div id="react"></div>
 
-<%= react_component('PostList', text: 'hello') %>
+<!-- can pass posts in as json -->
+<%= react_component('PostList', posts: JSON.parse(Post.all.to_json)) %>
