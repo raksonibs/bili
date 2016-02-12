@@ -2,17 +2,14 @@
 
 import React from 'react';
 
-var PostLst = React.createClass({
+class PostList extends React.Component {
   render() {    
     return (
       <div>
         test
       </div>
-    )
-    
+    ) 
   }
+}
 
-}) 
-
-
-module.exports = PostLst;
+module.exports = PostList
