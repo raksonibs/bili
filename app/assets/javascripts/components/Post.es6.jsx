@@ -1,7 +1,3 @@
-'use strict'
-
-import React from 'react';
-
 class Post extends React.Component {
   render() {
     return (
@@ -11,5 +7,3 @@ class Post extends React.Component {
     )
   }
 }
-
-module.exports = Post
