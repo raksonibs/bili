@@ -1,3 +1,6 @@
+var path = require('path');
+var webpack = require('webpack');
+
 module.exports = {
   entry: "./app/assets/javascripts/frontend/main.jsx",
   output: {
@@ -9,7 +12,12 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.jsx$/, loader: "babel", query: { presets: ['es2015', 'react']} }
+      { 
+        test: /\.jsx$/, 
+        include: path.join(__dirname, 'app/assets/javascripts'), 
+        loader: "babel", 
+        query: { presets: ['es2015', 'react']} 
+      }
     ]    
   }
 }
