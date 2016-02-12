@@ -2,12 +2,12 @@ class Post extends React.Component {
   render() {
     return (
       <div>
-        <li> 
+        <div className="left"> 
           {this.props.spanish_text}
-        </li>
-        <li> 
+        </div>
+        <div className="right"> 
           {this.props.english_text}
-        </li>
+        </div>
       </div>
     )
   }
