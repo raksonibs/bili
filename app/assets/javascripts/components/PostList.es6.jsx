@@ -2,7 +2,7 @@ class PostList extends React.Component {
   render() {    
     return (
       <div>
-        test
+        <Post spanish_text={"hola"} english_text={"hi"} />
       </div>
     ) 
   }
