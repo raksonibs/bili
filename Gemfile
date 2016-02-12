@@ -44,8 +44,8 @@ group :development do
   gem 'spring'
 end
 
-gem 'react-rails'
 gem 'devise'
 
 # gem "sorcery"
 gem 'pry'
+gem 'react-rails', '~> 1.6.0'
