@@ -10,3 +10,8 @@ Sat on the floor thinking that I love you,
 // highlighting (he or I've) shoudl give you the respective other. of course this is never a full match, but it could be a possible solution. because sentence structure is always different, maybe the best estimate I can do here is give an approximate word. (research math of word matching, see if something like this already exists, or just give a straight up dictionary definition)
 
 The sentence is much easier, as can just show that entire sentence.
+
+- mvp:
+  - books, articles, songs
+  - pay for books (each book is one dollar) //everything might need to be free, what are the legal issues of scraping this content. I probably can't get someone to pay for it when it isn't my own nor do I owe it. if I refer people to the original book, that can be possible. 
+  - I think mvp will have everything free, hosting the content on my own is obviously pretty problematic. If I source, is that okay?
