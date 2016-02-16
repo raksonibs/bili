@@ -15,3 +15,10 @@ The sentence is much easier, as can just show that entire sentence.
   - books, articles, songs
   - pay for books (each book is one dollar) //everything might need to be free, what are the legal issues of scraping this content. I probably can't get someone to pay for it when it isn't my own nor do I owe it. if I refer people to the original book, that can be possible. 
   - I think mvp will have everything free, hosting the content on my own is obviously pretty problematic. If I source, is that okay?
+
+-> need to get content, at least update of new articles (or all old ones because no copyright)
+-> at least ten songs,
+-> at least three books!
+-> no need to buidl scrapper if no use
+-> language shower built on 2.0
+-> style
